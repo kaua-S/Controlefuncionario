@@ -43,6 +43,22 @@ public class Usuario {
         return user;
     
     }
+    
+    public boolean incluirUsuario()  throws  ClassNotFoundException{
+    String sql = "insert into usuario(email, senha) values(? , ?)";
+    Connection con = Conexao.conectar();
+        try {
+            PreparedStatement stm = con.prepareStatement(sql);
+            stm.setString(1, this.getEmail());
+            stm.setString(2, this.getSenha());
+            stm.execute();
+        } catch (SQLException e) {
+            System.out.println("Não deu certo");
+            return  false;
+        }
+        
+        return true;
+    }
             
     
     

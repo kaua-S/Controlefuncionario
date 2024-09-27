@@ -25,7 +25,7 @@
       <li>
           
         <h1>Funcionario</h1>
-        <i class="fas fa-plus-circle"> <a href="index.html">voltar</a></i>
+        <i class="fas fa-plus-circle"> <a href="Inicio.jsp">voltar</a></i>
       </a>
     </li>
     

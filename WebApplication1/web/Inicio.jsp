@@ -10,8 +10,20 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+           <link rel="stylesheet" href="estilo/style.css"/>
     </head>
     <body>
-        <h1>Verificado com sucesso!</h1>
+        <nav class="menu">
+  <ul>
+      <li>
+          
+          <h1> <a href="Departamento.jsp"> Ir para Departamento</a></h1>
+          <h1> <a href="Funcionario.jsp"> Ir para Funcionario</a></h1>
+     
+    </li>
+    
+    
+  </ul>
+</nav>
     </body>
 </html>

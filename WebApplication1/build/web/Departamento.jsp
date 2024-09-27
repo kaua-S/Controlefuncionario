@@ -22,7 +22,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
       <li>
           
         <h1>Departamento</h1>
-        <i class="fas fa-plus-circle"> <a href="index.html">voltar</a></i>
+        <i class="fas fa-plus-circle"> <a href="Inicio.jsp">voltar</a></i>
       </a>
     </li>
     
