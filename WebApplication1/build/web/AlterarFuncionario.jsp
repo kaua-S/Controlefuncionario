@@ -1,6 +1,6 @@
 <%-- 
-    Document   : IncluirFuncionario
-    Created on : 27 de set. de 2024, 08:27:56
+    Document   : AlterarFuncionario
+    Created on : 27 de set. de 2024, 08:41:22
     Author     : kaua_mellato
 --%>
 
@@ -13,17 +13,18 @@
         <title>JSP Page</title>
     </head>
     <body>
-       <%
+      <%
        Funcionario f = new Funcionario();
        
+       f.setIdFunc(Integer.parseInt(request.getParameter("id")));
        f.setNomeFunc(request.getParameter("nm"));
        f.setIdDepto(Integer.parseInt(request.getParameter("derp")));
        f.setSalHora(Double.parseDouble(request.getParameter("sh")));
        
-       if (f.incluirFuncionario()) {
+       if (f.alterarFuncionario()) {
                response.sendRedirect("Funcionario.jsp");
            }
-       
-       %>
+ 
+      %>
     </body>
 </html>

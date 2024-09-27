@@ -1,7 +1,7 @@
 <%-- 
     Document   : IncluirFuncionario
-    Created on : 25 de set. de 2024, 08:53:15
-    Author     : Aluno
+    Created on : 27 de set. de 2024, 08:27:56
+    Author     : kaua_mellato
 --%>
 
 <%@page import="controlefuncionario.Funcionario"%>
@@ -13,16 +13,17 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%
-        Funcionario f = new  Funcionario();
-        
-        f.setNomeFunc(request.getParameter("nm"));
-        f.setIdDepto(Integer.parseInt(request.getParameter("dd")));
-        f.setSalHora(Double.parseDouble(request.getParameter("sl")));
-        
-       if ( f.incluirFuncionario()) {
+       <%
+       Funcionario f = new Funcionario();
+       
+       f.setNomeFunc(request.getParameter("nm"));
+       f.setIdDepto(Integer.parseInt(request.getParameter("derp")));
+       f.setSalHora(Double.parseDouble(request.getParameter("sh")));
+       
+       if (f.incluirFuncionario()) {
                response.sendRedirect("Funcionario.jsp");
            }
-        %>
+       
+       %>
     </body>
 </html>

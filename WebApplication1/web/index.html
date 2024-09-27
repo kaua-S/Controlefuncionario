@@ -14,26 +14,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <nav class="menu">
   <ul>
       <li>
-          <a href="Departamento.jsp" class="incluir">
-        <i class="fas fa-plus-circle"></i>
-        <span>Ir para Departamento</span>
-      </a>
+          
+        <h1>Login</h1>
+       
+     
     </li>
-    <li>
-        <a href="Funcionario.jsp" class="listar">
-        <i class="fas fa-list-ul"></i>
-        <span>Ir para Funcionario</span>
-      </a>
-    </li>
-   
+    
     
   </ul>
 </nav>
-        <aside>
-            <h1>Bem vindo Usuario</h1>
-            <h3>Esse sistema tem como propósito realizar um crud <br> da entidade Departamento e Funcionario</h3>
-        </aside>
         
+        <div class="container">
+             <h1>Login</h1>
+        <form method="post" action="receberDadosDepartamento.jsp">
+            <label for="dep">E-mail</label>
+            <input id="dep" type="text" name="em" required>
+            <label for="dep">Senha</label>
+            <input id="dep" type="text" name="sh" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
        
     </body>
 </html>
