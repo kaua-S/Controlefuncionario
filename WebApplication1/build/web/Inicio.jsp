@@ -12,8 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <nav class="menu">   <ul>       <li>           <a href="Departamento.jsp" class="incluir">         <i class="fas fa-plus-circle"></i>         <span>Ir para Departamento</span>       </a>     </li>     <li>    
-                    <a href="Funcionario.jsp" class="listar">         <i class="fas fa-list-ul"></i>         <span>Ir para Funcionario</span>       </a>     </li>            </ul> </nav>         <aside>             <h1>Bem vindo Usuario</h1>            
-            <h3>Esse sistema tem como propósito realizar um crud <br> da entidade Departamento e Funcionario</h3>         </aside>         
+        <h1>Verificado com sucesso!</h1>
     </body>
 </html>
